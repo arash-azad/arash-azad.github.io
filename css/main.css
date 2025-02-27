@@ -1,36 +1,40 @@
-@media all and (max-width: 767px) {
-    .navbar{
-        width: 100%;
-        height: 48px;
-        padding: 0 4px;
-    }
-    .navlogo {
-            height: 28px;
-            width: 28px;
-            margin: 0 12px;
-    }
+@media all and (max-width:767px) {}
+@media all and (min-width:768px) and (max-width:991px) {}
+@media all and (min-width:991px) {}
+.navlogo{
+    width: 38px;
+    height: 38px;
 }
-@media all and (min-width: 767px) and (max-width: 991px) {
-    .navbar{
-        width: 100%;
-        height: 48px;
-        padding: 0 20px;
-    }
-    .navlogo {
-        height: 28px;
-        width: 28px;
-        margin: 0 12px;
-    }
+.spacer{
+    width: 180px;
+    height: 100%;
+    background-color: aqua;
 }
-@media all and (min-width: 991px) {
-    .navbar {
-        height: 56px;
-        width: 100%;
-        padding: 0 8px;
-    }
-    .navlogo {
-        height: 32px;
-        width: 32px;
-        margin: 0 40px;
-    }
+ul {
+    list-style: none;
 }
+
+
+
+i{
+    width: 500px;
+    height: 500px;
+}
+/* 
+
+
+
+.nav-font {
+    font-size: 16px;
+    color: #000;
+    margin: 0 10px;
+    padding: 0 15px;
+}
+
+i {
+    font-size: 20px;
+}
+
+.navlistone {
+    height: 100%;
+} */
