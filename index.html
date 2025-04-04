@@ -20,8 +20,693 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    
+    <!-- <nav class="navbar navbar-expand bg-black py-2 d-flex">
+      <div class="container-fluid px-3 px-md-5">
+        <a href="#" class="navbar-brand d-flex h-100"
+          ><img src="images/favicon.png" width="28px" height="28px" alt=""
+        /></a>
+        <div class="logosnavbar">
+          <i class="bi bi-search text-danger me-3"></i>
+          <i class="bi bi-dash-square text-danger"></i>
+        </div>
+        
+      </div>
+    </nav> -->
+    <!-- first part(navbar) -->
+    <nav
+      class="navbar navbar1 navbar-expand-lg w-lg-100 bg-white position-sticky"
+    >
+      <div class="container-fluid px-3 px-md-5">
+        <a class="navbar-brand mb-1" href="#"
+          ><img src="images/favicon.png" width="28px" height="28px" alt=""
+        /></a>
+        <div>
+          <span
+            ><i class="bi bi-search d-inline d-lg-none me-3 mt-5 inav"></i
+          ></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div
+          class="collapse navbar-collapse text-nowrap"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a
+              class="nav-link navbar-li navbar-li-with-line me-lg-2 ms-lg-4"
+              href="#"
+              ><b>Mobile</b></a
+            >
+            <a class="nav-link navbar-li navbar-li-with-line me-lg-2" href="#"
+              ><b>Wearables</b></a
+            >
+            <a class="nav-link navbar-li navbar-li-with-line me-lg-2" href="#"
+              ><b>Smart Home</b></a
+            >
+            <a class="nav-link navbar-li navbar-li-with-line me-lg-2" href="#"
+              ><b>Lifestyle</b></a
+            >
+            <a class="nav-link navbar-li navbar-li-with-background" href="#"
+              ><b>POCO</b></a
+            >
+          </div>
+          <div class="w-100 d-flex justify-content-end">
+            <div
+              class="navbar-nav w-100 d-flex justify-content-start justify-content-lg-end ms-lg-5 text-nowrap"
+            >
+              <a class="nav-link me-lg-2 navbar-li navbar-li-with-line" href="#"
+                ><b>Discover</b></a
+              >
+              <a class="nav-link me-lg-2 navbar-li navbar-li-with-line" href="#"
+                ><b>Support</b></a
+              >
+              <a class="nav-link me-lg-2 navbar-li navbar-li-with-line" href="#"
+                ><b>Community</b></a
+              >
+              <a class="nav-link me-lg-2" href="#"
+                ><i class="bi bi-search d-none d-lg-inline inav"></i
+              ></a>
+              <a class="nav-link firstpart-human-sign me-lg-1" href="#"
+                ><i class="bi bi-person d-none d-lg-inline inav"></i>
+                <div
+                  class="d-flex flex-column position-absolute bg-white firstpart-human-sign-hover rounded-1"
+                >
+                  <p class="align-self-center px-4 firstpart-human-p-hover">
+                    Sign In
+                  </p>
+                  <p class="align-self-center px-4 firstpart-human-p-hover">
+                    Sign Up
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- secend part (carousel) -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div
+            class="d-block d-md-none w-100 secendpart-div secendpart-img1"
+          ></div>
+          <div
+            class="d-none d-md-block w-100 secendpart-div secendpart2-img1"
+          ></div>
+
+          <!-- <img src="animationspart/1mini.webp" class="d-block w-100 secendpart-div" alt="..." /> -->
+          <div
+            class="carousel-caption h-100 d-md-flex justify-content-start align-items-center"
+          >
+            <div
+              class="secendpart-textpart d-flex flex-column justify-content-center mt-4"
+            >
+              <h3 class="text-warning"><b>POCO F7 Ultra</b></h3>
+              <h4>Ultrapower Unleashed</h4>
+              <p>
+                Flagship Snapdragon&reg; 8 Elite <br />VisionBoost D7 Chipset
+              </p>
+              <div class="secendpart-button1 align-self-center">
+                <p class="text-white text-center mt-1">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="d-block d-md-none w-100 secendpart-div secendpart-img2"
+          ></div>
+          <div
+            class="d-none d-md-block w-100 secendpart-div secendpart2-img2"
+          ></div>
+
+          <!-- <img src="animationspart/2mini.webp" class="d-block w-100 secendpart-div" alt="..." /> -->
+          <div
+            class="carousel-caption h-100 d-md-flex justify-content-start align-items-center"
+          >
+            <div
+              class="secendpart-textpart d-flex flex-column justify-content-center mt-4"
+            >
+              <div
+                class="hyperai-sign rounded-5 bg-black d-none d-md-flex justify-content-center align-items-center mb-2"
+              >
+                <p class="text-center align-self-center mt-2 hyperai-text">
+                  Xiaomi HyperAI
+                </p>
+              </div>
+              <h3 class="text-black"><b>Xiaomi 15 Ultra </b></h3>
+              <p class="ms-5 text-nowrap">
+                CO ENGINEERED WITH
+                <i class="bi bi-1-circle-fill text-danger"></i>
+              </p>
+              <h4 class="text-black">Pinnacle Photography</h4>
+              <p class="text-black">Leica 1-inch main, 200MP telephoto</p>
+              <div class="secendpart-button1 align-self-center">
+                <p class="text-white text-center mt-1">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="d-block d-md-none w-100 secendpart-div secendpart-img3"
+          ></div>
+          <div
+            class="d-none d-md-block w-100 secendpart-div secendpart2-img3"
+          ></div>
+
+          <!-- <img src="animationspart/3mini.webp" class="d-block w-100 secendpart-div" alt="..." /> -->
+          <div
+            class="carousel-caption h-100 d-md-flex justify-content-start align-items-center"
+          >
+            <div
+              class="secendpart-textpart d-flex flex-column justify-content-center mt-4"
+            >
+              <div
+                class="hyperai-sign rounded-5 bg-black d-none d-md-flex justify-content-center align-items-center mb-2"
+              >
+                <p class="text-center align-self-center mt-2 hyperai-text">
+                  Xiaomi HyperAI
+                </p>
+              </div>
+              <h3 class="text-black"><b>Xiaomi 15</b></h3>
+              <p class="ms-5 text-nowrap">
+                CO ENGINEERED WITH
+                <i class="bi bi-1-circle-fill text-danger"></i>
+              </p>
+
+              <h4 class="text-black">Pinnacle Photography</h4>
+              <p class="text-black">Leica Summilux optical lens</p>
+              <div class="secendpart-button1 align-self-center">
+                <p class="text-white text-center mt-1">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div
+            class="d-block d-md-none w-100 secendpart-div secendpart-img4"
+          ></div>
+          <div
+            class="d-none d-md-block w-100 secendpart-div secendpart2-img4"
+          ></div>
+
+          <!-- <img src="animationspart/4mini.webp" class="d-block w-100 secendpart-div" alt="..." /> -->
+          <div
+            class="carousel-caption h-100 d-md-flex justify-content-end align-items-center"
+          >
+            <div
+              class="secendpart-textpart d-flex flex-column justify-content-center mt-4"
+            >
+              <h3 class="text-black text-nowrap">
+                <b>Redmi Note 14 Series</b>
+              </h3>
+              <h4 class="text-black">
+                Iconic shots, <i class="bi bi-patch-check"></i> AI crafted
+              </h4>
+              <p class="text-black">
+                200MP AI camera. All-Star Durability <sup>1</sup>
+              </p>
+              <div class="secendpart-button1 align-self-center">
+                <p class="text-white text-center mt-1">Learn More</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- third part -->
+    <div class="container-fluid thirdpart text-nowrap px-3 px-md-4">
+      <div class="pt-md-5">
+        <p class="third-part-title text-center pt-5">
+          <b>Featured Products</b>
+        </p>
+      </div>
+      <div>
+        <ul class="d-flex justify-content-center w-100 ul-thirdpart">
+          <li class="li-thirdpart">
+            <p class="p-thirdpart1"><b>The Lastest Pad Combo</b></p>
+          </li>
+          <li class="li-thirdpart">
+            <p class=""><b>The Lastest TWS Earphones</b></p>
+          </li>
+          <li class="li-thirdpart">
+            <p class=""><b>The Lastest Watch & Band</b></p>
+          </li>
+          <li class="li-thirdpart">
+            <p class=""><b>The Lastest Electric Scooter</b></p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="pt-3 w-100 third-part-albums bg-white d-flex justify-content-center"
+      >
+        <div class="third-part-img">
+          <div class="third-part-img1 w-100 d-flex justify-content-center">
+            <div class="third-part-cover"></div>
+            <!-- <img
+              class="third-part-cover "
+              src="images/third-part/third-part-cover/f930a55267a616af08300750491a5afd.webp"
+              alt=""
+            /> -->
+            <div class="third-part-cover2 d-block d-md-inline-block"></div>
+            <!-- <img
+              class="third-part-cover2 d-block d-md-inline-block "
+              src="images/third-part/third-part-cover/2.jpg"
+              alt=""
+            /> -->
+            <div class="thirdpart-button position-absolute">
+              <p class="text-white text-center mt-1">Learn More</p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="mt-4 thirdpart-container">
+              <div
+                class="d-flex justify-content-center thirdpart-div-number1 thirdpart-div-number2"
+              >
+                <div
+                  class="thirdpart-4pics-div d-flex justify-content-center py-1"
+                >
+                  <div class="row row-thirdpart">
+                    <div class="col-12 d-flex justify-content-center">
+                      <img
+                        class="thirdpart-4pics"
+                        src="images/third-part/4pics/1.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart">
+                        <b>Xiaomi Pad 7 / 7 Pro <br />Focus Keyboard</b>
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart text-thirdpart1">
+                        A comprehensive <br class="d-none d-md-flex" />
+                        tablet assistant
+                      </p>
+                      <div class="thirdpart-button1 position-absolute">
+                        <p class="text-white text-center mt-1">Learn More</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="thirdpart-4pics-div ms-2 d-flex justify-content-center"
+                >
+                  <div class="row row-thirdpart">
+                    <div class="col-12 d-flex justify-content-center">
+                      <img
+                        class="thirdpart-4pics"
+                        src="images/third-part/4pics/2.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart">
+                        <b
+                          >Xiaomi Pad 7 / 7 Pro <br />
+                          Screen Protector</b
+                        >
+                      </p>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart text-thirdpart1">
+                        Durable,<br class="d-none d-md-flex" />
+                        scratch-resistant and <br />
+                        shatter-resistant
+                      </p>
+                      <div class="thirdpart-button1 position-absolute">
+                        <p class="text-white text-center mt-1">Learn More</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="mt-3 mt-md-0 d-flex justify-content-center thirdpart-div-number1"
+              >
+                <div
+                  class="thirdpart-4pics-div d-flex justify-content-center ms-md-2 py-1"
+                >
+                  <div class="row row-thirdpart">
+                    <div class="col-12 d-flex justify-content-center">
+                      <img
+                        class="thirdpart-4pics"
+                        src="images/third-part/4pics/3.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart">
+                        <b>Xiaomi Focus Pen</b>
+                      </p>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart text-thirdpart1">
+                        Easy to write and <br class="d-none d-md-flex" />
+                        has an added <br class="d-md-none" />
+                        spotlight button
+                      </p>
+                      <div class="thirdpart-button1 position-absolute">
+                        <p class="text-white text-center mt-1">Learn More</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="thirdpart-4pics-div d-flex justify-content-center ms-2 py-1"
+                >
+                  <div class="row row-thirdpart">
+                    <div class="col-12 d-flex justify-content-center">
+                      <img
+                        class="thirdpart-4pics"
+                        src="images/third-part/4pics/4.webp"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart">
+                        <b
+                          >Xiaomi Pad 7 / 7 Pro <br />
+                          Cover</b
+                        >
+                      </p>
+                    </div>
+
+                    <div class="col-12 d-flex justify-content-center">
+                      <p class="text-center text-thirdpart text-thirdpart1">
+                        Creative folding ensures<br class="d-none d-md-flex" />
+                        stability <br class="d-md-none" />
+                        both horizontally <br class="d-none d-md-flex" />
+                        and vertically
+                      </p>
+                      <div class="thirdpart-button1 position-absolute">
+                        <p class="text-white text-center mt-1">Learn More</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fourth part -->
+    <div class="row pt-5 mb-5">
+      <h2 class="text-center pt-5">Explore Xiaomi</h2>
+      <div class="fourthpart-arrow justify-content-end pe-5 d-none d-md-flex">
+        <i class="bi bi-arrow-left-square text-bg-secondary me-2 fs-3"></i>
+        <i class="bi bi-arrow-right-square text-bg-secondary fs-3"></i>
+      </div>
+    </div>
+    <div class="container-fluid fourthpart d-flex">
+      <div
+        class="fourthpart-imgs d-flex w-100 justify-content-center justify-content-lg-between"
+      >
+        <div
+          class="bg-white d-none d-lg-flex flex-column shadow-sm fourthpart-parent fourthpart-parent1 rounded-4"
+        >
+          <div class="fourthpart-img fourthpart-img1 rounded-top-4"></div>
+          <h4 class="text-center pt-3">Redmi Buds 6</h4>
+          <p class="text-center fourthpart-text fs-5 pb-3">
+            Elevate every beat.
+          </p>
+          <div class="fourthpart-button align-self-center">
+            <p class="text-white text-center mt-1">Learn More</p>
+          </div>
+        </div>
+
+        <div
+          class="fourthpart shadow-sm bg-white fourthpart-parent fourthpart-parent2 rounded-4"
+        >
+          <div class="fourthpart-img fourthpart-img2 rounded-top-4"></div>
+          <h4 class="text-center pt-3">Xiaomi HyperAI</h4>
+          <p class="text-center fourthpart-text fs-5 pb-3">
+            Boost your daily productivity
+          </p>
+          <div class="d-flex justify-content-center">
+            <div class="fourthpart-button align-self-center">
+              <p class="text-white text-center mt-1">Learn More</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-white d-none shadow-sm d-lg-flex flex-column fourthpart-parent fourthpart-parent3 rounded-4"
+        >
+          <div class="fourthpart-img fourthpart-img3 rounded-top-4"></div>
+          <h4 class="text-center pt-3">Take the light, own the glow</h4>
+          <p class="text-center fourthpart-text fs-5 pb-3 px-1">
+            Xiaomi 15 Liquid Silver - the lastest sleek style statement.
+          </p>
+          <div class="fourthpart-button align-self-center">
+            <p class="text-white text-center mt-1">Learn More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- fifth part -->
+    <div class="container-fluid pt-5 pb-5">
+      <p class="text-center fifthpart-title pt-5"><b>Xiaomi Support</b></p>
+      <div class="row py-5 pb-md-5">
+        <div
+          class="col-6 col-md-3 fifthpart-templates d-flex flex-column justify-content-center ps-5 mb-5 mb-md-0"
+        >
+          <i
+            class="bi bi-headset fifth-i align-self-center text-center mb-3"
+          ></i>
+          <h4 class="align-self-center text-center mb-2">Customer Support</h4>
+          <p class="align-self-center text-center">
+            Contact us via live-chat, email,<br class="d-none d-md-flex" />
+            and phone call
+          </p>
+        </div>
+        <div
+          class="col-6 col-md-3 fifthpart-templates d-flex flex-column justify-content-center pe-5 pe-md-0 mb-5 mb-md-0"
+        >
+          <i
+            class="bi bi-patch-check fifth-i text-center align-self-center mb-3"
+          ></i>
+          <h4 class="align-self-center text-center mb-2">Warranty</h4>
+          <p class="align-self-center text-center">
+            Local warranty policy protection <br class="d-none d-md-flex" />is
+            provided
+          </p>
+        </div>
+        <div
+          class="col-6 col-md-3 fifthpart-templates d-flex flex-column justify-content-center ps-5 ps-md-0"
+        >
+          <i
+            class="bi bi-patch-exclamation fifth-i text-center align-self-center mb-3"
+          ></i>
+          <h4 class="align-self-center text-center mb-2">User Guides</h4>
+          <p class="align-self-center text-center">
+            Find and download your Xiaomi <br class="d-none d-md-flex" />
+            product user guide
+          </p>
+        </div>
+        <div
+          class="col-6 col-md-3 fifthpart-templates d-flex flex-column justify-content-center pe-5"
+        >
+          <i
+            class="bi bi-patch-question fifth-i text-center align-self-center mb-3"
+          ></i>
+          <h4 class="align-self-center text-center mb-2">FAQ</h4>
+          <p class="align-self-center text-center">
+            Search for help about Xiaomi
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- sixth part -->
+    <div class="sixthpart-div d-flex align-items-center">
+      <p class="ps-4 ps-md-5 pt-3 text-secondary">
+        1.Available features may vary by model.
+      </p>
+    </div>
+    <!-- seventh part -->
+    <div class="container-fluid seventhpart pt-5 pb-3">
+      <div class="">
+        <div class="d-md-flex mb-md-5 d-lg-block col-lg-3 float-lg-end">
+          <div class="col-md-6 col-lg-12">
+            <p class="col-12 text-white mb-3 ps-2 seventhpart-font1">
+              <b>Follow Xiaomi</b>
+            </p>
+            <div class="col-12 mb-4 ps-3">
+              <i class="bi fs-3 me-3 text-black bg-white bi-facebook"></i>
+              <i class="bi fs-3 me-3 text-black bg-white bi-youtube"></i>
+              <i class="bi fs-3 me-3 text-black bg-white bi-twitter-x"></i>
+              <i class="bi fs-3 me-3 text-black bg-white bi-instagram"></i>
+              <i class="bi fs-3 me-3 text-black bg-white bi-robot"></i>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-12">
+            <p class="col-12 text-white ps-2 col-md-12 seventhpart-font1">
+              <b> Enter your email address to subscribe to our newsletters </b>
+            </p>
+            <nav class="navbar navbar-light col-12 col-md-12">
+              <div class="container-fluid mb-4">
+                <form class="d-flex w-100">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="d-none d-md-flex flex-row justify-content-start">
+          <ul class="d-flex flex-column col-4 col-lg-4">
+            <h6 class="text-white mb-2">SUPPORT</h6>
+            <li class="mb-2 text-white seventhpart-li">Contact us</li>
+            <li class="mb-2 text-white seventhpart-li">User Guide</li>
+            <li class="mb-2 text-white seventhpart-li">Warranty</li>
+            <li class="mb-2 text-white seventhpart-li">
+              EU Declaration of Conformity
+            </li>
+            <li class="mb-2 text-white seventhpart-li">
+              Scooter Safety Notice
+            </li>
+            <li class="mb-2 text-white seventhpart-li">
+              Android Enterprise Recommended
+            </li>
+            <li class="mb-2 text-white seventhpart-li">Digital Services Act</li>
+          </ul>
+          <ul class="d-flex flex-column col-4 col-lg-4">
+            <h6 class="text-white mb-2">ABOUT US</h6>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi</li>
+            <li class="mb-2 text-white seventhpart-li">Leadership Team</li>
+            <li class="mb-2 text-white seventhpart-li">Privacy Policy</li>
+            <li class="mb-2 text-white seventhpart-li">
+              Integrity & Compliance
+            </li>
+            <li class="mb-2 text-white seventhpart-li">Investor Relations</li>
+            <li class="mb-2 text-white seventhpart-li">Sustainability</li>
+            <li class="mb-2 text-white seventhpart-li">Trust Center</li>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Accessibility</li>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Hy</li>
+          </ul>
+
+          <ul class="d-flex flex-column col-4 col-lg-4">
+            <h6 class="text-white mb-2">XIAOMI PROJECTS</h6>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Creators</li>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Studios</li>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Imagery</li>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Master Class</li>
+            <li class="mb-2 text-white seventhpart-li">Xiaomi Renovation</li>
+          </ul>
+        </div>
+        <div
+          class="w-100 d-none d-md-block bg-white mt-5 seventhpart-line mb-2"
+        ></div>
+        <p
+          class="text-white ps-2 col-12 col-md-5 text-nowrap seventhpart-font1 d-md-inline-block"
+        >
+          <span class="d-none d-lg-inline-block"
+            >Copyright © 2010 - 2025 Xiaomi. All Rights Reserved
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+          >Cookie settings | Cookie policy<span class="d-none d-md-inline-block"
+            >| Sitemap</span
+          >
+        </p>
+        <p class="text-white ps-2 col-12 col-md-1 seventhpart-font1 d-md-none">
+          Sitemap
+        </p>
+        <p
+          class="text-white ps-2 seventhpart-font1 col-md-2 float-md-end text-nowrap align-self-end"
+        >
+          Global / English <i class="bi bi-globe2"></i>
+        </p>
+        <div class="w-100 bg-white seventhpart-line mb-2 d-lg-none"></div>
+        <p
+          class="text-white ps-2 seventhpart-font1 seventhpart-font1 d-lg-none"
+        >
+          Copyright © 2010 - 2025 Xiaomi. All Rights Reserved
+        </p>
+      </div>
+    </div>
   </body>
 </html>
+
+<!-- <div class="d-flex flex-row justify-content-center text-nowrap">
+        <div class="">
+          <p><b>The Lastest Pad Combo</b></p>
+        </div>
+        <div class="">
+          <p><b>The Lastest TWS Earphones</b></p>
+        </div>
+        <div class="">
+          <p><b>The Lastest Watch & Band</b></p>
+        </div>
+        <div class="">
+          <p><b>The Lastest Electric Scooter</b></p>
+        </div>
+      </div> -->
